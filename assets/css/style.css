@@ -10,8 +10,8 @@ ul{
 
 li{
     list-style: none;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     margin-right: 5px;
     margin-left: 0;
     display: inline-block;
@@ -109,4 +109,35 @@ main{
     color: red;
     font-size: 10px;
     margin-right: 10px;
+}
+
+.label-forma{
+    border-radius: 14px;
+    color: white;
+    padding: 6px;
+    font-size: 12px;
+}
+
+.label-blu{
+    background-color: #45ABEA;
+}
+
+.label-viola{
+    background-color: #9C72E4;
+}
+
+.label-verde{
+    background-color: #64C0A9;
+}
+
+.label-arancione{
+    background-color: #F29E33;
+}
+
+.label-rosa{
+    background-color: #D863A1;
+}
+
+.label-verde-2{
+    background-color: #B0C926;
 }
