@@ -8,40 +8,43 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- header -->
+
     <header>
         <img src="assets/img/logo copia.png" alt="" class="logo">
         <h1>Toboolist</h1>
     </header>
     <div class="contenitore">
+
+        <!-- nav bar con pulsanti -->
+
         <div class="nav">
             <button class="bt-nav1">Add Task</button>
             <button class="bt-nav2">Add Section</button>
         </div>
         <main>
             <div class="contenitore-2">
-                <ul>
-                    <li>New Task
-                        <ul>
-                            <li>Quarterly Newsletter</li>
-                        </ul>
-                    </li>
-                    <li>Today
-                        <ul>
-                            <li>Recruiting blog post</li>
-                            <li>Mobile app launch</li>
-                            <li>Interview Jhon H.</li>
-                            <li>Summit update to mobile storefronts</li>
-                        </ul>
-                    </li>
-                    <li>Upcoming
-                        <ul>
-                            <li>Schedule meeting with Alex</li>
-                            <li>Homepage refresh</li>
-                            <li>Onboard new Sales team members</li>
-                            <li>Review editorial calendar</li>
-                        </ul>
-                    </li>
+
+                <!-- lista -->
+
+                <ul><strong>&#9660; New Task</strong><br>
+                    <li><span class="check">&#10003;</span>Quarterly Newsletter</li><label>Editorial</label>
                 </ul>
+
+                <ul><strong>&#9660; Today</strong><br>
+                    <li><span class="check">&#10003;</span>Recruiting blog post</li><label>Editorial</label><br>
+                    <li><span class="check">&#10003;</span>Mobile app launch</li><label>Q1 Goals</label><br>
+                    <li><span class="x">&#10005;</span>Interview Jhon H.</li><label>Recruiting</label><br>
+                    <li><span class="check">&#10003;</span>Summit update to mobile storefronts</li><label>Mobile</label><br>
+                </ul>
+    
+                <ul><strong>&#9660; Upcoming</strong><br>
+                    <li><span class="x">&#10005;</span>Schedule meeting with Alex</li>
+                    <li><span class="check">&#10003;</span>Homepage refresh</li><label>Website</;><br>
+                    <li><span class="check">&#10003;</span>Onboard new Sales team members</li><label>Sales</label><br>
+                    <li><span class="check">&#10003;</span>Review editorial calendar</li><label>Editorial</label><br>
+                </ul>                
+                
             </div>
         </main>
     </div>

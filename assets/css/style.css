@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 
+ul{
+    margin-bottom: 30px;
+}
+
 li{
-    margin-left: 1em;
+    list-style: none;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 5px;
+    margin-left: 0;
+    display: inline-block;
 }
 
 h1{
     display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
 }
 
 body{
@@ -42,11 +53,10 @@ main{
 }
 
 .nav{
-    height: 60px;
+    height: 55px;
     background-color: white;
     padding-left: 58px;
     padding-top: 15px;
-    padding-bottom: 5px;
     border-radius: 6px;
 }
 
@@ -76,4 +86,27 @@ main{
 .contenitore-2{
     background-color: white;
     padding: 40px 58px;
+}
+
+.section{
+    font-weight: bold;
+    font-size: large;
+}
+
+.check{
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 1px 3px;
+    color: green;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.x{
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 1px 3px;
+    color: red;
+    font-size: 10px;
+    margin-right: 10px;
 }
