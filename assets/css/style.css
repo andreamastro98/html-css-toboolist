@@ -86,6 +86,7 @@ main{
 .contenitore-2{
     background-color: white;
     padding: 40px 58px;
+    border-radius: 6px;
 }
 
 .section{
